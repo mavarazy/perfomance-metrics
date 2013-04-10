@@ -1,0 +1,12 @@
+e3316fba-7a11-4618-b725-ed659aaa3976/0,start:SecondEncapsulatedBean.secondEncapsulationCall,time:1351344490962,nano:587273123825205,args:1/1
+e3316fba-7a11-4618-b725-ed659aaa3976/1,start:EncapsulatedBean.encapsulatedCall,time:1351344490981,nano:587273142674937,args:1
+e3316fba-7a11-4618-b725-ed659aaa3976/2,start:SimpleBean.doNothing,time:1351344490996,nano:587273157586517,args:none
+e3316fba-7a11-4618-b725-ed659aaa3976/3,end:SimpleBean.doNothing,time:1351344491011,nano:587273172008849,res:null
+e3316fba-7a11-4618-b725-ed659aaa3976/4,end:EncapsulatedBean.encapsulatedCall,time:1351344491011,nano:587273172208694,res:null
+e3316fba-7a11-4618-b725-ed659aaa3976/5,end:SecondEncapsulatedBean.secondEncapsulationCall,time:1351344491011,nano:587273172268525,res:null
+dd1ca041-c6b0-4731-9ca9-8edd57722d15/0,start:SecondEncapsulatedBean.secondEncapsulationCall,time:1351345719343,nano:588501504135814,args:1/1
+dd1ca041-c6b0-4731-9ca9-8edd57722d15/1,start:EncapsulatedBean.encapsulatedCall,time:1351345719371,nano:588501532448309,args:1
+dd1ca041-c6b0-4731-9ca9-8edd57722d15/2,start:SimpleBean.doNothing,time:1351345719400,nano:588501561142011,args:none
+dd1ca041-c6b0-4731-9ca9-8edd57722d15/3,end:SimpleBean.doNothing,time:1351345719424,nano:588501585275436,res:null
+dd1ca041-c6b0-4731-9ca9-8edd57722d15/4,end:EncapsulatedBean.encapsulatedCall,time:1351345719424,nano:588501585484395,res:null
+dd1ca041-c6b0-4731-9ca9-8edd57722d15/5,end:SecondEncapsulatedBean.secondEncapsulationCall,time:1351345719424,nano:588501585555542,res:null

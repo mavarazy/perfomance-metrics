@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.mavarazy.performance.logger.SpringPerformanceLogger">
+        <constructor-arg name="flowSpecification">
+            <bean class="com.mavarazy.performance.flow.FlowSpecification">
+                <constructor-arg name="callDepth" value="-1" />
+                <constructor-arg name="storeSpecification">
+                    <bean class="com.mavarazy.performance.infrastructure.FileStoreSpecification">
+                        <constructor-arg name="bufferSize" value="16" />
+                        <constructor-arg name="fileName" value="test.log" />
+                        <constructor-arg name="flush" value="true" />
+                        <constructor-arg name="presentationStream">
+                            <bean class="com.mavarazy.performance.infrastructure.presentation.csv.CSVFlowEventPresentationStream" />
+                        </constructor-arg>
+                    </bean>
+                </constructor-arg>
+            </bean>
+        </constructor-arg>
+    </bean>
+
+</beans>

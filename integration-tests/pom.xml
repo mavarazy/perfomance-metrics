@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.mavarazy</groupId>
+        <artifactId>performance</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <artifactId>integration-tests</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.mavarazy</groupId>
+            <artifactId>shared-kernel</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mavarazy</groupId>
+            <artifactId>logger-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mavarazy</groupId>
+            <artifactId>performance-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mavarazy</groupId>
+            <artifactId>test-utils</artifactId>
+        </dependency>
+        <dependency>
+            <artifactId>commons-collections</artifactId>
+            <groupId>commons-collections</groupId>
+        </dependency>
+    </dependencies>
+</project>
